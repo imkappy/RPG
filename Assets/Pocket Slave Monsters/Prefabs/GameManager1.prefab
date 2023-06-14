@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7620864620590438410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7620864620590438411}
+  - component: {fileID: 7620864620590438408}
+  m_Layer: 0
+  m_Name: GameManager1
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7620864620590438411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7620864620590438410}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7620864620590438408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7620864620590438410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e702d69948270479de9fc47924e276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleCamera: {fileID: 0}
+  allPokemon:
+  - {fileID: 5257445860723395621, guid: d9b6d8dfcfd96854fae1a7e2fd66cab5, type: 3}
+  - {fileID: 8511260220996131449, guid: c3424f2aef83b7f4fb4aa30640d76575, type: 3}
+  - {fileID: 1131772216487954171, guid: 4c9c0744433f47041b6809f3cf1b595d, type: 3}
+  - {fileID: 2788439367317121387, guid: 2d79993f12a365745bcf11cd7865514b, type: 3}
+  - {fileID: 6242747812795101294, guid: b0e38e82908639b4889985dae777cf9e, type: 3}
+  - {fileID: 8910598471757063790, guid: 300e1c1b84852d9459eb415587e44cef, type: 3}
+  - {fileID: 4736038437776119669, guid: e53065abd7229954390dfd7d0c2315df, type: 3}
+  - {fileID: 5889578396554548566, guid: 6b09871b24e3cb848b3628fd74bbb7c4, type: 3}
+  - {fileID: 1202662701132461193, guid: 6e6662ab023a9294a9855bc6a33fbe8d, type: 3}
+  allMoves: []
+  defencePodium: {fileID: 0}
+  attackPodium: {fileID: 0}
+  emptyPoke: {fileID: 2416620268679133463, guid: 5c97adba6d225cd47b5b5a2486e9c625,
+    type: 3}
+  isBattle: 0
